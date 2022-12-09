@@ -17,8 +17,20 @@ app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'resources/views'));
 
 //Route
+app.get('/', (req, res) => {
+  res.render('home');
+});
+
 app.get('/homepage', (req, res) => {
   res.render('home');
+});
+
+app.get('/news', (req, res) => {
+  res.render('news');
+});
+
+app.get('/search', (req, res) => {
+  res.render('search');
 });
 
 //127.0.0.1 -> localhost

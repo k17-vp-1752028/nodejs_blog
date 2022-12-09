@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/k17-vp-1752028/nodejs_blog#readme",
   "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.2",
     "express": "^4.18.2",
     "express-handlebars": "^6.0.6"
   },

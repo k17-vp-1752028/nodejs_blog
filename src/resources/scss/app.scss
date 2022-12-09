@@ -1,7 +1,58 @@
 @import "variables";
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
 .app {
-  background-color: rgb(125, 189, 224);
+  header {
+    margin-bottom: 10px;
+  }
+
+  .container {
+    background-color: rgb(79, 84, 87);
+    margin-top: 56px;
+    margin-bottom: 0px;
+  }
+
+  footer {
+    margin-bottom: 0;
+
+    ul {
+      list-style-type: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    h2 {
+      color: white;
+    }
+
+    span {
+      color: #ffc107;
+    }
+
+    .container {
+      color: white;
+      display: inline-flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: flex-start;
+
+      .social_info {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    }
+
+    .copyright {
+      color: wheat;
+      display: flex;
+      justify-content: center;
+    }
+  }
 }
 
 h1 {
@@ -9,5 +60,5 @@ h1 {
 }
 
 h2 {
-  color: blue;
+  color: #f3c736;
 }

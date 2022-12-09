@@ -1,8 +1,40 @@
-.app {
-  background-color: #7dbde0; }
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+.app header {
+  margin-bottom: 10px; }
+
+.app .container {
+  background-color: #4f5457;
+  margin-top: 56px;
+  margin-bottom: 0px; }
+
+.app footer {
+  margin-bottom: 0; }
+  .app footer ul {
+    list-style-type: none; }
+  .app footer a {
+    text-decoration: none;
+    color: white; }
+  .app footer h2 {
+    color: white; }
+  .app footer span {
+    color: #ffc107; }
+  .app footer .container {
+    color: white;
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start; }
+    .app footer .container .social_info {
+      display: inline-flex;
+      flex-direction: row;
+      align-items: center; }
+  .app footer .copyright {
+    color: wheat;
+    display: flex;
+    justify-content: center; }
 
 h1 {
   color: #e19a80; }
 
 h2 {
-  color: blue; }
+  color: #f3c736; }
